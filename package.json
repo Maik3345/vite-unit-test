@@ -1,0 +1,23 @@
+{
+  "name": "vite-test-config",
+  "version": "1.0.0",
+  "description": "Configuración centralizada de Vite para pruebas unitarias",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": ["vite", "test", "config", "unitarios"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^5.4.2",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "vite-test-config": "./bin/vite-test-config.js"
+  }
+}
